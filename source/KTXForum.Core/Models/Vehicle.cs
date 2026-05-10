@@ -6,9 +6,9 @@ namespace KTXForum.Core.Models
 {
     public class Vehicle
     {
-        public int VehicleId { get; set; }
-        public int UserId { get; set; }
-        public string LicensePlate { get; set; }
-        public string VehicleType { get; set; }
+        public int vehicleId { get; set; }
+        public int userId { get; set; }
+        public string licensePlate { get; set; }
+        public string vehicleType { get; set; }
     }
 }

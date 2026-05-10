@@ -1,17 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace KTXForum.Core.Models
 {
-    public class Complaint
+    public class Notification
     {
-        public int complaintId { get; set; }
+        public int notificationId { get; set; }
         public int userId { get; set; }
-        public string title { get; set; }
         public string content { get; set; }
-        public string status { get; set; }
+        public bool isRead { get; set; } = false;
         public DateTime createdAt { get; set; }
-        public DateTime? resolvedAt { get; set; }
     }
 }

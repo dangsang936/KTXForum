@@ -6,12 +6,12 @@ namespace KTXForum.Core.Models
 {
     public class ParkingRegistration
     {
-        public int ParkingRegistrationId { get; set; }
-        public int VehicleId { get; set; }
-        public int DurationMonths { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public decimal TotalPrice { get; set; }
-        public string Status { get; set; }
+        public int parkingRegistrationId { get; set; }
+        public int vehicleId { get; set; }
+        public int durationMonths { get; set; }
+        public DateTime startDate { get; set; }
+        public DateTime endDate { get; set; }
+        public decimal totalPrice { get; set; }
+        public string status { get; set; }
     }
 }

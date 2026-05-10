@@ -14,8 +14,8 @@ namespace KTXForum.Core.Models
         public int roomNumber { get; set; }
         public Gender gender { get; set; }
         public int capacity { get; set; }
-        public int CurrentOccupancy { get; set; }
-        public decimal PricePerMonth { get; set; }
+        public int currentOccupancy { get; set; }
+        public decimal pricePerMonth { get; set; }
         public RoomStatus status { get; set; }
     }
 }

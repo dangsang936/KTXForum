@@ -6,9 +6,9 @@ namespace KTXForum.Core.Models
 {
     public class Payment
     {
-        public int PaymentId { get; set; }
-        public int RoomRegistrationId { get; set; }
-        public double Amount { get; set; }
+        public int paymentId { get; set; }
+        public int roomRegistrationId { get; set; }
+        public double amount { get; set; }
        
     }
 }
