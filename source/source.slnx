@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="KTXForum.Core/KTXForum.Core.csproj" />
-  <Project Path="KTXForum.Data/KTXForum.Data.csproj" />
-  <Project Path="KTXForum.WPF/KTXForum.WPF.csproj" />
-</Solution>
